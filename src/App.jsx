@@ -9,7 +9,7 @@ function App() {
   const fetchRecommendations = async () => {
     try {
       const res = await axios.post(
-        "https://ds-netflix-movie-recommender-backend.onrender.com/",
+        "https://ds-netflix-movie-recommender-backend.onrender.com/recommend",
         {
           title: movie,
         }
