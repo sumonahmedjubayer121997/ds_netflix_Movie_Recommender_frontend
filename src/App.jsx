@@ -8,9 +8,12 @@ function App() {
 
   const fetchRecommendations = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/recommend", {
-        title: movie,
-      });
+      const res = await axios.post(
+        "https://ds-netflix-movie-recommender-backend.onrender.com/",
+        {
+          title: movie,
+        }
+      );
       setResults(res.data.recommendations);
     } catch (err) {
       console.error(err);
