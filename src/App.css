@@ -1,0 +1,20 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  width: 300px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 2rem;
+  list-style: none;
+}
